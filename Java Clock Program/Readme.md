@@ -2,7 +2,7 @@
 
 I built a program that can tell the time in different formats based on three number inputs. 
 
-To use this program, open both .Java files in your favorite IDE for Java (I use Eclipse), and run the MyTimeMain file. Once you do so, it will prompt you to enter three numbers in the format of HH MM SS, not separated by commas. Here is an example with 13 1 1:
+To use this program, open both .Java files in your favorite IDE for Java (I use Eclipse), and run the MyTimeMain file. Make sure the name of the respective files are MyTimeMain and MyTime, and also ensure that the name of the package at the top corresponds to the name of the package that each file is in. Once you do so, it will prompt you to enter three numbers in the format of HH MM SS, not separated by commas. Here is an example with 13 1 1:
 
 Enter hour minute and second (-1 to exit)
 13 1 1
