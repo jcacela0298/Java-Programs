@@ -1,4 +1,4 @@
-package assignment4;
+package project4;
 
 /**
  * MyUrlDemo - Tests the MyUrl class
