@@ -1,4 +1,4 @@
-package assignment4;
+package project4;
 
 public class MyUrl {
 	
