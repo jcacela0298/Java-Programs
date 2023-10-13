@@ -1,4 +1,4 @@
-package homework5;
+package project5;
 import java.util.Scanner;
 
 //ArraySort is a class that asks the user for 3 to 10 numbers and then sorts the numbers from low to high in the form of an array.
