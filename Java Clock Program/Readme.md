@@ -1,6 +1,6 @@
 # Java Clock Program
 
-I built a program that can tell the time in different formats based on three number inputs. 
+I built a program with Lance Smith that can tell the time in different formats based on three number inputs. 
 
 To use this program, open both .Java files in your favorite IDE for Java (I use Eclipse). Make sure the names of the respective files are MyTimeMain.java and MyTime.java, corresponding to the names of the first class within each file. Also, ensure that the name of the package at the top of each file corresponds to the name of the project's package that each file is in. Then, run the MyTimeMain file and it will prompt you to enter three numbers in the format of HH MM SS, not separated by commas. Here is an example with 13 1 1:
 
