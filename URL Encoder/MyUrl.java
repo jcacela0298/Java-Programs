@@ -2,16 +2,16 @@ package project4;
 
 public class MyUrl {
 	
-	private static String mUrl = new String();
+	private String mUrl = new String();
 	private String formattedCombo;
 		
 		public MyUrl(String url) {
 		
 		if (!url.startsWith("http://")) {
-			mUrl = "http://" + url;
+			this.mUrl = "http://" + url;
 		}
 		else {
-			mUrl = url;
+			this.mUrl = url;
 		}
 		}	
 		public void addArgument (String name, String value){
@@ -46,7 +46,7 @@ public class MyUrl {
 		}
 
 		public String toString() {
-			String finalUrl = mUrl + "?" + formattedCombo;
+			String finalUrl = this.mUrl + "?" + formattedCombo;
 			return finalUrl;
 		}
 		
