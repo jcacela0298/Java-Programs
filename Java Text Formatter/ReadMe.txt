@@ -2,9 +2,11 @@
 
 I built a Java text formatter program with Lance Smith that will read words from an input file and write them to an output file -- It will remove extra whitespace and fill each line with as many words as will fit up to user-specified maximum column width (similar to a column of text in a newspaper). The input text file name, output text file name, and maximum column width are entered interactively when the program starts.
 
+If you would like instructions on how to clone this project and how to set up for running the code before you read the instructions below on how to actually use the program, check out the "How To Clone + Use This Project.txt" file in this folder.
+
 To use this program, open the TextFormatter.Java file in your favorite IDE for Java (I use Eclipse), and run it. Once you do so, it will prompt you to enter the path of the input text file, then it will prompt for the path of the output file, and then finally for the maximum width from 30 to 100 characters. An example of a path for the input file might look something like this: 
 
-C:\Users\(your username)\OneDrive\Desktop\Doc1.txt
+C:\Users\(your username)\Desktop\Doc1.txt
 
 Note: To test this program, you may use Doc1.txt and Doc2.txt for input files, and then you may use Doc1Output.txt with Doc2Output.txt for output files.
 .
@@ -14,7 +16,7 @@ Note: To test this program, you may use Doc1.txt and Doc2.txt for input files, a
 .
 I learned many things throughout this Text Formatter project. 
 
-First, for input and output, we need important boiler plate import code at the top. Then, within our TextFormatter class, We need to make a scanner object to read the user input in the console, and we need to declare variables to store the input and output file paths, the files themselves, and the maxWidth variable which is the maximum desired number of characters that will go to each line in the output file.
+First, for input and output, we need important boilerplate import code at the top. Then, within our TextFormatter class, We need to make a scanner object to read the user input in the console, and we need to declare variables to store the input and output file paths, the files themselves, and the maxWidth variable which is the maximum desired number of characters that will go to each line in the output file.
 
 Next, we have to prompt the user for the input file, and to achieve this we have to do a few things. First, we use a do-while loop just in case the user doesn't enter in a proper input file path -- the file must exist and be readable in order to proceed. It seems like do-while loops are effective when trying to validate user input. We then use scanner functionality to scan the user's input into our inputfilePath variable, which then stores that file into the other variable we defined known as inputFile. 
 
