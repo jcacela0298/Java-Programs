@@ -4,7 +4,7 @@ I built a program with Lance Smith that can construct an encoded URL based on va
 
 If you would like instructions on how to clone this project before the instructions on what to do after running the main file, check out the "How to clone this project.txt" file. 
 
-Run the MyUrlDemo file and it will prompt you to enter in a base url such as amazon.com. Once done, it will prompt for an argument name, then an argument value type, and then an argument value. It will add this to the base url and keep prompting you for more input until you type done. Here is an example of input and output:
+Run the main "MyUrlDemo.java" file and it will prompt you to enter a base URL such as amazon.com. Once done, it will prompt for an argument name, then an argument value type, and then an argument value. It will add these to the base URL, and keep prompting for more input until you type "done". Here is an example of input and output:
 
 Enter URL site (or 'exit')...
 Url value read was: www.barnesandnoble.com
