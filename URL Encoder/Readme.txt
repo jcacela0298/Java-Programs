@@ -2,9 +2,9 @@
 
 I built a program with Lance Smith that can construct an encoded URL based on values entered in by the user.
 
-If you would like instructions on how to clone this project before the instructions on what to do after running the main file, check out the "How to clone this project.txt" file. 
+If you would like instructions on how to clone this project + setup for running the code before the instructions on what to do after running the main file, check out the "How to clone this project.txt" file. 
 
-Run the main "MyUrlDemo.java" file and it will prompt you to enter a base URL such as amazon.com. Once done, it will prompt for an argument name, then an argument value type, and then an argument value. It will add these to the base URL, and keep prompting for more input until you type "done". Here is an example of input and output:
+With that said, here are the instructions on what to do after you cloned the project and setup for running the code: Once you successfully run the main "MyUrlDemo.java" file, it will prompt you to enter a base URL such as amazon.com. Once done, it will prompt for an argument name, then an argument value type, and then an argument value. It will add these to the base URL, and keep prompting for more input until you type "done". 
 
 There is another file in this folder called URL Input Output.txt that has an input/output example.
 
