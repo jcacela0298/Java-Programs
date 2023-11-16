@@ -27,3 +27,4 @@ URL with appended arguments is:
 http://www.barnesandnoble.com?publisher=Addison+%26+Wesley&title=Does+e%3dmc2+%3f&price=19.95
 
 Enter URL site (or 'exit')...
+exit
