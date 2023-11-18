@@ -2,7 +2,7 @@
 
 I built a Java text formatter program with Lance Smith that will read words from an input file and write them to an output file -- It will remove extra whitespace and fill each line with as many words as will fit up to user-specified maximum column width (similar to a column of text in a newspaper). The input text file name, output text file name, and maximum column width are entered interactively when the program starts.
 
-If you would like instructions on how to clone this project and how to set up for running the code before you read the instructions below on how to actually use the program, check out the "How To Clone + Use This Project.txt" file in this folder.
+If you would like a tutorial on how to correctly upload/download Java Eclipse projects to/from GitHub, check out my YouTube video: https://www.youtube.com/watch?v=qCrTzBX3OOg&t=2s
 
 To use this program, open the TextFormatter.Java file in your favorite IDE for Java (I use Eclipse), and run it. Once you do so, it will prompt you to enter the path of the input text file, then it will prompt for the path of the output file, and then finally for the maximum width from 30 to 100 characters. An example of a path for the input file might look something like this: 
 
