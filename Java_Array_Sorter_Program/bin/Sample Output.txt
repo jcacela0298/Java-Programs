@@ -1,0 +1,79 @@
+Enter the size of the array (3 to 10): 
+9
+Enter value for element 0: 
+1000
+Enter value for element 1: 
+-200
+Enter value for element 2: 
+500
+Enter value for element 3: 
+150
+Enter value for element 4: 
+600
+Enter value for element 5: 
+800
+Enter value for element 6: 
+150
+Enter value for element 7: 
+50
+Enter value for element 8: 
+-25
+The unsorted values...
+1000
+-200
+500
+150
+600
+800
+150
+50
+-25
+The sorted values...
+-200
+-25
+50
+150
+150
+500
+600
+800
+1000
+Done. Type yes to start a new session. 
+yes
+Enter the size of the array (3 to 10): 
+7
+Enter value for element 0: 
+7
+Enter value for element 1: 
+6
+Enter value for element 2: 
+5
+Enter value for element 3: 
+4
+Enter value for element 4: 
+3
+Enter value for element 5: 
+2
+Enter value for element 6: 
+1
+The unsorted values...
+7
+6
+5
+4
+3
+2
+1
+The sorted values...
+1
+2
+3
+4
+5
+6
+7
+Done. Type yes to start a new session. 
+yes
+Enter the size of the array (3 to 10): 
+2
+Invalid array size. Exiting...
