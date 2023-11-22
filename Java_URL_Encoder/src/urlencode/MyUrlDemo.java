@@ -8,7 +8,6 @@ package urlencode;
 import java.util.Scanner;
 public class MyUrlDemo
 {
-
     /**
      * main
      */
