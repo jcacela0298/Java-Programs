@@ -39,7 +39,7 @@ I reinforced to myself that if a class is declared as public, it can in fact be 
 
 class StringValidation {}
 
-I also learned that just because public is declared does not mean someone from another computer can directly access this code. That person would need to have access to the same "Java codebase", where they would need access to the source code or compiled class files of these classes, so they would need to download the file into their own system first. Apparently, in typical development / distribution scenarios, I would contribute my class as part of a Java Archive file (JAR) so that others can include it in their projects.
+I also learned that just because public is declared does not mean someone from another computer can directly access this code. That person would need to have access to the same "Java codebase", where they would need access to the source code or compiled class files of these classes, so they would need to download the file into their own system first. In typical development/distribution scenarios, I would contribute my class as part of a Java Archive file (JAR) so that others can include it in their projects.
 
 I learned that the shortcut to running a file in Eclipse is Ctrl + F11 on Windows.
 
