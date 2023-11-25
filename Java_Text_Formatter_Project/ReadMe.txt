@@ -18,9 +18,9 @@ I learned many things throughout this Text Formatter project.
 
 First, for input and output, we need important boilerplate import code at the top. Then, within our TextFormatter class, We need to make a scanner object to read the user input in the console, and we need to declare variables to store the input and output file paths, the files themselves, and the maxWidth variable which is the maximum desired number of characters that will go to each line in the output file.
 
-Next, we have to prompt the user for the input file, and to achieve this we have to do a few things. First, we use a do-while loop just in case the user doesn't enter in a proper input file path -- the file must exist and be readable in order to proceed. It seems like do-while loops are effective when trying to validate user input. We then use scanner functionality to scan the user's input into our inputfilePath variable, which then stores that file into the other variable we defined known as inputFile. 
+Next, we have to prompt the user for the input file, and to achieve this we have to do a few things. First, we use a do-while loop just in case the user doesn't enter in a proper input file path -- the file must exist and be readable in order to proceed. It seems that do-while loops are effective when trying to validate user input. We then use scanner functionality to scan the user's input into our inputfilePath variable, which then stores that file into the other variable we defined known as inputFile. 
 
-The next step is to prompt the user for the output file, which we accomplish in a similar fashion, except for the output file, we check if the output file exists and if the want to overwrite it, and if they enter in "yes", this exits the loop and continues the process. 
+The next step is to prompt the user for the output file, which we accomplish in a similar fashion. For the output file, though, we check if the output file exists and if they want to overwrite it --  if the client enters in "yes", this exits the loop and continues the process. 
 
 Afterwards, we need to open the input file for reading and open the output file for writing, which can be seen here:
 
