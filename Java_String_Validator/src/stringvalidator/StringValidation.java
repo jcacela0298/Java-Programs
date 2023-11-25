@@ -2,13 +2,10 @@ package stringvalidator;
 
 public class StringValidation {
 	public static boolean isValidInt(String testIntval) {
-
 		if (testIntval == null) {
 			return false;
-		} else {
-		 
+		} else {	 
 			try{
-
 				int number = java.lang.Integer.parseInt(testIntval);
 				return true;
 			} catch (NumberFormatException e) {
