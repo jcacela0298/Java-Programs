@@ -2,7 +2,7 @@ This project was completed by Jack Cacela and Lance Smith. This Java MaxValueRet
 
 If you would like a tutorial on how to correctly upload/download Java Eclipse projects to/from GitHub, check out my YouTube video: https://www.youtube.com/watch?v=qCrTzBX3OOg&t=2s
 
-When we run the MaxValueReturn.java file, it calls the max method (with 3 integer parameter of your choosing) which compares each integer parameter value, assesses which is the highest, and returns that integer. In order to run this file, download the MaxValueReturn.java file into your favorite IDE, and then run the MaxValueReturn.java file. Make sure you put the parameters you wish at line 6 -- The default parameters are 100, 500, and 500, which are three valid integers, and this should return 500.
+In order to run this file, download the MaxValueReturn.java file into your favorite IDE, and then run the MaxValueReturn.java file. When we run the MaxValueReturn.java file, the main method calls the max method which compares each integer parameter value that the user manually inputs within the main method, assesses which is the highest, and returns that integer. Make sure you put the parameters you wish at line 15 -- The default parameters are 700, 500, and 500, which are three valid integers, and this should return 700.
 
 Here is the prompt for the project:
  
