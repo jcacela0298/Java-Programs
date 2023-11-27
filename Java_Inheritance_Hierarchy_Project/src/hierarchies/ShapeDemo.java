@@ -135,10 +135,5 @@ public class ShapeDemo {
                 continue;
             }
         } while (true);
-
     }
-    // TODO - add the sortArray method to sort the array of Shapes into
-    // ascending order.  The array and number of shapes in it must be passed
-    // as parameters.
-
 }
