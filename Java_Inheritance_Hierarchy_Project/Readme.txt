@@ -1,4 +1,4 @@
-I built a program with Lance Smith that can ask the user for a list of shapes -- the user can specify colors (red, blue, or green) and shape parameters such as radius, length, and width depending on the shape in order for this program to automatically calculate the area. Then, this list of shapes with specified features will be added into an array and will be sorted based on the areas of the shapes. 
+I built a program with Lance Smith that can ask the user for a list of shapes with certain characteristics -- the user can specify the shape type (circle, square, rectangle), colors (red, blue, or green), and relevant shape parameters such as radius, length, and width, in order for this program to automatically calculate the area. The user can provide characteristics for multiple shapes, and once the user is finished adding shapes, the list of shapes with specified features will be added to an array and will be sorted & returned based on the areas of the shapes. 
 
 If you would like a tutorial on how to correctly upload/download Java Eclipse projects to/from GitHub, check out my YouTube video: https://www.youtube.com/watch?v=qCrTzBX3OOg&t=2s
 
