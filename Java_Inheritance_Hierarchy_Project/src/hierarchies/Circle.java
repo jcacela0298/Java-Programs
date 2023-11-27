@@ -5,8 +5,8 @@ public class Circle extends Shape {
 	private double mradius;
 
 	public Circle (String color, double radius) {
-	super(color);
-	mradius = radius;
+		super(color);
+		mradius = radius;
 	}
 	
 	public double area() {
@@ -20,6 +20,5 @@ public class Circle extends Shape {
 	           "\nRadius: " + mradius +
 	           "\nArea: " + area(); // Calling the area method to get the area value
 	}
-
 
 }
