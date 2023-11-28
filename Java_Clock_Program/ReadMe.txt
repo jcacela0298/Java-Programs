@@ -15,4 +15,4 @@ hour is 13  minute is 1  second is 1
 
 There is another file in this folder called Output.txt that has more examples.
 
-During this project, I learned more about passing and accepting parameters, built-in Java methods such as Integer.toString() that can accept parameters, multiple variable declaration statements, do-while loops, assigning scanned values to variables, packages, instance variables, = vs. ==, if/else statements, boolean methods, modulo operator, ternary operators, concatenation, and overall Java syntax.
+During this project, I learned more about passing and accepting parameters, built-in Java methods such as Integer.toString() that can accept parameters, multiple variable declaration statements, do-while loops, assigning scanned values to variables, packages, instance variables, = vs. ==, if/else statements, boolean methods, modulo operator, ternary operators, concatenation, the meaning of "this", and overall Java syntax.
