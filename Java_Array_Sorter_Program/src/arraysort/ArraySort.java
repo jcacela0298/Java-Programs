@@ -23,8 +23,8 @@ public class ArraySort {
 			    newArray[i] = sc.nextInt();
 			}
 			
-			 int[] unsortedArray = newArray.clone(); // Create a copy of newArray
-	         int[] sortedArray = newArray.clone();   // Create a copy of newArray	
+			 int[] unsortedArray = newArray.clone(); // Create a copy of newArray for the unsorted version
+	                 int[] sortedArray = newArray.clone();   // Create a copy of newArray for the "to-be" sorted version
 
             
             sortArray(sortedArray);
