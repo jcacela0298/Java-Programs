@@ -8,4 +8,4 @@ To use this program, open the .Java file in your favorite IDE for Java (I use Ec
 
 There is another file in this folder called Sample Output.txt that has input and output examples.
 
-During this project, I learned more about scanner functionality, overall Java syntax, how to make a program without the use of a helper class, boolean "while-loops", how to create new integer arrays, how to pass and accept arrays as parameters, for-loops for array parameter assignment, scanner closing functionality, how one cannot perform .length operations on a primitive data type such as an integer, and the bubble sort algorithm with do-while loop functionality.
+During this project, I learned more about scanner functionality, how to make a program without the use of a helper class, boolean "while-loops", how to create new integer arrays, how to pass and accept arrays as parameters, for-loops for array parameter assignment, scanner closing functionality, how one cannot perform .length operations on a primitive data type such as an integer, overall Java syntax, and the bubble sort algorithm with do-while loop functionality.
