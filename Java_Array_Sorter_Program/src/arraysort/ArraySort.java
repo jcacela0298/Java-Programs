@@ -43,31 +43,24 @@ public class ArraySort {
         sc.close();
     }
 				
-			public static void fillArray(int[] array) {
-				  Scanner sc = new Scanner(System.in);
 
-			        for (int i = 0; i < array.length; i++) {
-			            array[i] = sc.nextInt();
-			        }
-			    }
-
-			public static void sortArray(int[] array) {
-				//bubble sort algorithm
-				boolean swapped;
-				do{
-					swapped = false;
-					for (int n = 0; n < array.length - 1; ++n) {
-				
-					if (array[n] > array[n + 1]) {
-						int temp = array[n];
-						array[n] = array[n+1];
-						array[n +1 ] = temp;
-						swapped = true;
-					}
+		public static void sortArray(int[] array) {
+			//bubble sort algorithm
+			boolean swapped;
+			do{
+				swapped = false;
+				for (int n = 0; n < array.length - 1; ++n) {
+			
+				if (array[n] > array[n + 1]) {
+					int temp = array[n];
+					array[n] = array[n+1];
+					array[n +1 ] = temp;
+					swapped = true;
 				}
-			} while(swapped);
-		}				
-			public static void printArray(int[] array) {
+			}
+		} while(swapped);
+	}				
+		public static void printArray(int[] array) {
 		        for (int i = 0; i < array.length; i++) {
 		            System.out.println(array[i]);
 		        }
