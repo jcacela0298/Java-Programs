@@ -7,7 +7,7 @@ import org.junit.Test;
 public class SquareFormulaTest {
 
     @Test
-    public void testAreaOfSquare() {
+    public void testAreaOfSquareWithSideLength5() {
 
         // Arrange
 
