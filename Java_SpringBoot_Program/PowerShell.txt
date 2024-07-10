@@ -1,0 +1,35 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\jackc> cd OneDrive\Desktop\Eclipse\spring-boot-example
+PS C:\Users\jackc\OneDrive\Desktop\Eclipse\spring-boot-example> docker compose up -d
+[+] Running 1/0
+ ✔ Container postgres  Running                                         0.0s
+PS C:\Users\jackc\OneDrive\Desktop\Eclipse\spring-boot-example> docker ps
+CONTAINER ID   IMAGE      COMMAND                  CREATED        STATUS       PORTS                    NAMES
+01074ec3f7b9   postgres   "docker-entrypoint.s…"   2 months ago   Up 2 hours   0.0.0.0:5332->5432/tcp   postgres
+PS C:\Users\jackc\OneDrive\Desktop\Eclipse\spring-boot-example> docker exec -it postgres bash
+root@01074ec3f7b9:/# psql -U jack
+psql (16.2 (Debian 16.2-1.pgdg120+2))
+Type "help" for help.
+
+jack=# \c customer
+You are now connected to database "customer" as user "jack".
+customer=# INSERT INTO customer(id, name, email, age)
+customer-# VALUES (nextval('customer_id_sequence'), 'Earl', 'earl@gmail.com'
+, 103);
+INSERT 0 1
+customer=# select * from customer;
+ age  | id |        email         |    name
+------+----+----------------------+------------
+   22 |  1 | alex@gmail.com       | Alex
+  134 |  4 | jamiliasa@gmail.com  | Jamiliasa
+ 1345 |  5 | jamiliasan@gmail.com | Jamiliasan
+   29 |  7 | alex29@gmail.com     | Alexis
+   22 |  8 | alex@gmail.com       | Alex
+  103 |  9 | earl@gmail.com       | Earl
+(6 rows)
+
+customer=#
