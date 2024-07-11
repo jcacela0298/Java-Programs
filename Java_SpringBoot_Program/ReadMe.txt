@@ -10,7 +10,7 @@ Spring Boot is a framework that gives you everything that you need to build appl
 What is the purpose of this project?
 
 The purpose of this project is to create a rest API with Spring Boot so that customers can use Postman to make various requests (such as post, get, and delete) to and from our customer database. These requests travel to our customer database API, flowing through our business layer, DAO layer, and then to a real database (Postgres running on Docker) to receive appropriate responses, all while using N-tier architecture (where each layer is responsible for only one single thing). 
-We can input customer data in the database via terminal, but we wanted to expose an API endpoint that clients can use to achieve the same thing in a more user-friendly manner.
+We can input customer data in the database via terminal, but we wanted to expose an API endpoint that clients can use to achieve the same thing in a more user-friendly manner using Postman.
 
 
 What does your system need in order to create Java Spring Boot projects?
@@ -31,7 +31,8 @@ Then, you should be good to go for WSL.
 Postman: 
 Make an account here: https://www.postman.com/
 Download the desktop app here: https://www.postman.com/downloads/
-Optional: JSON viewer for chrome, so when we type the url in google, if there are many statements , it will look neater.
+
+Optional: JSON viewer for chrome, so if you ever want to type the url in google instead of via Postman, it will look neater.
 
 
 
@@ -41,11 +42,11 @@ Optional: JSON viewer for chrome, so when we type the url in google, if there ar
 Guidelines to create the same project:
 
 
-Once you have downloaded the items as mentioned above, clone the repository from GitHub and then move the Java_SpringBoot_Program file elsewhere, such as your desktop, to keep it separate from the cloned repository.
+Once you have followed the instructions above and downloaded the necessary items, clone the Java repository from GitHub. Then, I recommend moving the Java_SpringBoot_Program file elsewhere, such as your desktop, to keep it separate from the cloned repository.
  
-Then, in order to run the main.java file, open the Docker application, and then in VS Code, open a project folder which is the Java_SpringBoot_Program from your desktop (separate from the repository) and make sure to download 2 extensions for VS Code: Java, and Extension Pack for Java. Then, navigate to the explorer tab, and in your project folder, navigate to the Main.java file which is under src > main > java > com > jack > Main.java. 
+In order to run the main.java file, open the Docker application, and then in VS Code, open the Java_SpringBoot_Program foldere from your desktop (separate from the repository) as a new project, so that all of those files automatically show up in VS Code, and make sure to download 2 extensions for VS Code: Java, and Extension Pack for Java, so that Java and Maven are supported in order for the building of the project to work. Then, navigate to the explorer tab, and in your project folder, navigate to the Main.java file which is under src > main > java > com > jack > Main.java. 
 
-(You might be able to just run the main.java file. if that doesn't work, try pressing control shift-d and clicking Launch Main if it is there. If that doesn't work, Click the main.java file, press control shift-d , then at the top, click run, then run configuration, and then it should show a launch.json file which needs to contain the following code: 
+Next, you may be able to just run the main.java file. If that doesn't work, press control shift-d and click "Launch Main" at the top left if it is there. If that doesn't work, Click the main.java file, press control shift-d , then at the top, click run, then run configuration, and then it should show a launch.json file which needs to contain the following code: 
 
 {
     // Use IntelliSense to learn about possible attributes.
@@ -73,9 +74,9 @@ Then, in order to run the main.java file, open the Docker application, and then 
 
 Then at the top left, click the green arrow for "Launch Main" and this should successfully run the Spring Boot application.
 
-Next, navigate to the PowerShell.txt file from GitHub to see an example session where I successfully added a customer to the database and retrieved their information from the database, all using terminal. Make sure that you are in the directory that contains the docker-compose.yml file.
+Next, navigate to the PowerShell.txt file (Easily viewable at the root of the repository folder) from GitHub to see an example session where I successfully added a customer to the database and retrieved their information from the database, all using terminal. Make sure that you are in the directory that contains the docker-compose.yml file.
 
-If you would like to see the retrieval of the customer database information via Postman (via "get" request) navigate to the Postman.png file.
+If you would like to see a "get request" example of interacting with the database via Postman, navigate to the Postman.png file, which is also easily viewable at the root of the repository folders.
 
 .
 .
@@ -85,7 +86,7 @@ If you would like to see the retrieval of the customer database information via 
 .
 .
 
-P.S. Normally, if one were starting from scratch, they would have to create the "skeleton" of the project by navigating to  
+P.S. Normally, if one were making a Java SpringBoot project starting from scratch, they would have to create the "skeleton" of the project by navigating to  
 https://start.spring.io/
 
 and then enter in the following:
@@ -106,15 +107,3 @@ Then click explore at bottom middle and you will see the maven project with ever
 Close it, then click GENERATE and save it to your desktop, and then open it on your desktop with intelliJ or VS Code
 
 At this point, you would then just add the other required files as needed.
-
-
-
-
-
-
-
-
-
-
-
-
