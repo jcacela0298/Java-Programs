@@ -15,6 +15,20 @@ root@01074ec3f7b9:/# psql -U jack
 psql (16.2 (Debian 16.2-1.pgdg120+2))
 Type "help" for help.
 
+jack=# CREATE DATABASE customer;
+CREATE DATABASE
+________________________________________________________________
+
+AT THIS POINT, NOW YOU NEED TO RE RUN THE MAIN.JAVA FILE AND OPEN 
+A NEW TERMINAL WINDOW AND REPEAT THE STEPS ABOVE, NOT INCLUDING THE 
+
+CREATE DATABASE customer;
+
+command. Once you have repeated the steps up until then, instead of
+typing CREATE DATABASE customer;
+you type the following:
+
+
 jack=# \c customer
 You are now connected to database "customer" as user "jack".
 customer=# INSERT INTO customer(id, name, email, age)
