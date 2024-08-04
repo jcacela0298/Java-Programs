@@ -8,7 +8,6 @@ YouTube tutorial on how exactly I completed this:
 https://www.youtube.com/watch?v=_UOmiZmgSGo
 
 
-Candidate number two is my Java SpringBoot Application, which was part of my Java SpringBoot 3 Certification. This application uses Docker, Postgres, and Maven to create a rest API with Spring Boot, so that customers can use Postman to make various requests (such as post, get, and delete) to and from our customer database. These requests travel to our customer database API, flowing through our business layer, DAO layer, and then to a real database (Postgres running on Docker) to receive appropriate responses, all while using N-tier architecture (where each layer is responsible for only one single thing). 
-We can input customer data in the database via terminal, but we wanted to expose an API endpoint that clients can use to achieve the same thing in a more user-friendly manner using Postman.
+Candidate number two is my Java SpringBoot Application, which was part of my Java SpringBoot 3 Certification. This application uses Docker, Postgres, and Maven to create a rest API with Spring Boot, so that customers can use Postman to make various requests (such as post, get, and delete) to and from the customer database. These requests travel to the customer database API, flowing through the business layer, DAO layer, and then to a real database (Postgres running on Docker) to receive appropriate responses, all while using N-tier architecture where each layer is responsible for only one single task. Customer data may be inputted in the database via terminal, but an API endpoint was exposed so clients can achieve the same thing in a more user-friendly manner using Postman.
 
 https://github.com/jcacela0298/Java-Programs/tree/main/Java_SpringBoot_Program
