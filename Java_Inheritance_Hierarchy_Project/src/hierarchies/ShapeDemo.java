@@ -65,8 +65,7 @@ public class ShapeDemo {
         System.out.println("\nSorting shapes into order by area...");
 
 
-        // TODO - call the sortArray method to sort the array of Shapes.
-        // Pass slist and numShapes as parameters.
+        // Call the sortArray method to sort the array of Shapes.
         sortArray(slist);
 
         // Print the sorted list of shapes.
