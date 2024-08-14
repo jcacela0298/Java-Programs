@@ -1,6 +1,6 @@
 # Java Clock Program
 
-I built a program with Lance Smith that can tell the time in different formats based on three number inputs. 
+I built a program that can tell the time in different formats based on three number inputs. 
 
 If you would like a tutorial on how to correctly upload/download Java Eclipse projects to/from GitHub, check out my YouTube video: https://www.youtube.com/watch?v=qCrTzBX3OOg&t=2s
 
@@ -14,5 +14,9 @@ Values read were: 13 1 1
 hour is 13  minute is 1  second is 1
 
 There is another file in this folder called Output.txt that has more examples.
-
+.
+.
+.
+.
+.
 During this project, I learned more about passing and accepting parameters, built-in Java methods such as Integer.toString() that can accept parameters, multiple variable declaration statements, do-while loops, assigning scanned values to variables, packages, instance variables, = vs. ==, if/else statements, boolean methods, modulo operator, ternary operators, concatenation, the meaning of "this", and overall Java syntax.
