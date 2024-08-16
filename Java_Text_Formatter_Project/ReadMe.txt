@@ -1,6 +1,6 @@
 # Java Text Formatter Project
 
-I built a Java text formatter program with Lance Smith that will read words from an input file and write them to an output file -- It will remove extra whitespace and fill each line with as many words as will fit up to user-specified maximum column width (similar to a column of text in a newspaper). The input text file name, output text file name, and maximum column width are entered interactively when the program starts.
+I built a Java text formatter program that will read words from an input file and write them to an output file -- It will remove extra whitespace and fill each line with as many words as will fit up to user-specified maximum column width (similar to a column of text in a newspaper). The input text file name, output text file name, and maximum column width are entered interactively when the program starts.
 
 If you would like a tutorial on how to correctly upload/download Java Eclipse projects to/from GitHub, check out my YouTube video: https://www.youtube.com/watch?v=qCrTzBX3OOg&t=2s
 
